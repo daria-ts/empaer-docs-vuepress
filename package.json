@@ -4,8 +4,8 @@
   "description": "empaer documentation",
   "main": "index.js",
   "authors": {
-    "name": "Daria",
-    "email": "tochdz@gmail.com"
+    "name": "Empaer.capital",
+    "email": "tech@empaer.capital"
   },
   "repository": "empaer-docs/empaer-docs",
   "scripts": {
