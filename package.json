@@ -1,0 +1,19 @@
+{
+  "name": "empaer-docs",
+  "version": "0.0.1",
+  "description": "empaer documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Daria",
+    "email": "tochdz@gmail.com"
+  },
+  "repository": "empaer-docs/empaer-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
