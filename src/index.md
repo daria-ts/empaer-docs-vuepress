@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://thumb.tildacdn.com/tild6534-3039-4832-b235-643463323031/-/format/webp/EMP4.png
 tagline: empaer documentation
-actionText: Quick Start →
+actionText: Перейти к документации →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
+- title: Как это работает
   details: Feature 1 Description
-- title: Feature 2 Title
+- title: Вопросы и ответы 
   details: Feature 2 Description
-- title: Feature 3 Title
+- title: Дорожная карта
   details: Feature 3 Description
-footer: Made by Daria with ❤️
+footer: Empaer.Capital © 2021
 ---
