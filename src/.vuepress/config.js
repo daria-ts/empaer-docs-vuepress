@@ -16,9 +16,15 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#4A038E' }],
+    ['link', { rel: 'icon', href: '/logo.png' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['meta', { name: 'theme-color', content: '#5D45BA' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: '#5D45BA' }],
+    ['link', { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon-152x152.png' }],
+    ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#5D45BA' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#5D45BA' }]
   ],
 
   /**
@@ -87,17 +93,7 @@ module.exports = {
       ],
     }
   },
-  head: [
-    ['link', { rel: 'icon', href: '/logo.png' }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#5D45BA' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: '#5D45BA' }],
-    ['link', { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon-152x152.png' }],
-    ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#5D45BA' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#5D45BA' }]
-  ],
+
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
@@ -111,6 +107,13 @@ module.exports = {
         serviceWorker: true,
         updatePopup: true
       }
-    ]
+    ],
+    ['@vuepress/active-header-links', {
+      sidebarLinkSelector: '.sidebar-link',
+      headerAnchorSelector: '.header-anchor'
+    }],
+    ['@vuepress/search', {
+      searchMaxSuggestions: 10
+    }]
   ]
 }
