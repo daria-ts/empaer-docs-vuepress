@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://thumb.tildacdn.com/tild3738-3731-4637-b834-623465666137/-/format/webp/empaer-znak.png
+heroImage: https://thumb.tildacdn.com/tild3632-3430-4265-a366-333833303332/-/format/webp/Group_4.png
 tagline: Подробное описание проекта
 actionText: Перейти к документации →
 actionLink: /guide/
@@ -13,3 +13,4 @@ features:
   details: Этапы реализации и даты запуска
 footer: Empaer.Capital © 2021
 ---
+
