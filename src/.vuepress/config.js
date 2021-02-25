@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'EMPAER',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,7 +34,7 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Как начать',
+        text: 'Как это работает',
         link: '/guide/',
       },
       {
