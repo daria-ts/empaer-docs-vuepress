@@ -93,6 +93,30 @@ module.exports = {
       ],
     }
   },
+  locales: {
+    '/': {
+      lang: 'ru-RU',
+      title: 'EMPAER',
+      description: 'Документация',
+      serviceWorker: {
+        updatePopup: {
+          message: '🎉 Новый контент доступен ',
+          buttonText: 'Обновить'
+        }
+      }
+    },
+    '/en/': {
+      lang: 'en-US',
+      title: 'EMPAER',
+      description: 'Project documentations',
+      serviceWorker: {
+        updatePopup: {
+          message: '🎉 New Content Is Available ',
+          buttonText: 'Refresh'
+        }
+      }
+    }
+  },
 
 
   /**
