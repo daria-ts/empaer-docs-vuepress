@@ -38,6 +38,8 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    logo: '/logo.png',
+  
     nav: [
       {
         text: 'Как это работает',
@@ -58,8 +60,11 @@ module.exports = {
       {
         text: 'Whitepaper',
         link: 'https://empaer.ru/'
-      }
+      },
+      
+      
     ],
+    
     sidebar: {
       '/guide/': [
         {
