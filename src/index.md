@@ -1,6 +1,7 @@
 ---
 home: true
-heroImage: https://thumb.tildacdn.com/tild3632-3430-4265-a366-333833303332/-/format/webp/Group_4.png
+heroImage: /images/empaer-logo-3.png
+name: name
 tagline: Подробное описание проекта
 actionText: Перейти к документации →
 actionLink: /guide/
@@ -11,6 +12,6 @@ features:
   details: Все, что вы хотели знать об EMPAER
 - title: Дорожная карта
   details: Этапы реализации и даты запуска
-footer: Empaer.Capital © 2021
+footer: Empaer capital © 2020-2021
 ---
 
