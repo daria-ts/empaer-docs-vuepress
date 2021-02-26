@@ -82,7 +82,13 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'pochemu-vygodno-investirovat-v-empaer',
+            'akcii-vs-bankovsky-deposit',
+            'hranenie-i-vyvod-akcii',
+            'luchshee-vremya-dlya-investici',
+            'mejdunarodnye-investicii',
+            'pokupka-prodaja-na-birge',
+            'kak-poluchit-investicii'
           ]
         }
       ],
