@@ -85,10 +85,13 @@ module.exports = {
             'pochemu-vygodno-investirovat-v-empaer',
             'akcii-vs-bankovsky-deposit',
             'hranenie-i-vyvod-akcii',
-            'luchshee-vremya-dlya-investici',
+            'luchshee-vremya-dlya-investicii',
+            'zachita-investicii',
             'mejdunarodnye-investicii',
-            'pokupka-prodaja-na-birge',
-            'kak-poluchit-investicii'
+            'kak-investirovat-nalichnye-v-kryptu',
+            'vip-investicii',
+            'kak-poluchit-investicii',
+            'perspectivy',
           ]
         }
       ],
