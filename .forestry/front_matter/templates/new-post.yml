@@ -5,9 +5,11 @@ fields:
 - type: text
   name: title
   label: title
+  description: Этот заголовок автоматически будет заголовком поста
 - type: text
   name: lang
   label: lang
+  description: менять только в случае контента на других языках
 - type: field_group_list
   name: meta
   label: meta
@@ -15,12 +17,18 @@ fields:
   - type: text
     name: name
     label: name
+    description: это сео заголовок поста
   - type: text
     name: content
     label: content
+    description: это сео описание поста, которое отразится в поисковиках
 - type: text
   name: category
   label: category
+  description: это котегория в которой будет размещен пост
 - type: list
   name: tags
   label: tags
+  description: 'это теги, которые облегчат поиск '
+  config:
+    use_select: false
