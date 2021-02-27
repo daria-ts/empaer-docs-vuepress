@@ -2,8 +2,8 @@ backend:
   name: github
   repo: daria-ts/empaer-docs-vuepress
   branch: master
-media_folder: 'src/.vuepress/public/images/uploads'
-public_folder: 'src/.vuepress/dist/'
+media_folder: 'public/images/uploads'
+public_folder: 'dist/'
 site_url: https://empaer-docs.netlify.com
 display_url: https://empaer-docs.netlify.com
 logo_url: https://empaer-docs.netlify.app/logo.png
@@ -11,7 +11,7 @@ publish_mode: editorial_workflow
 collections:
   - name: 'doc' # Used in routes, e.g., /admin/collections/blog
     label: 'Doc' # Used in the UI
-    folder: '/src/articles' # The path to the folder where the documents are stored
+    folder: 'scr/docs' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     show_preview_links: true
