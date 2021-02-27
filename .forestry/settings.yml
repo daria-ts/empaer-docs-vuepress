@@ -1,0 +1,30 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: "/admin"
+webhook_url: 
+sections:
+- type: directory
+  path: src/faq
+  label: faq
+  create: all
+  match: "**/*"
+- type: directory
+  path: src
+  label: menu
+  create: documents
+  match: "**/*"
+  templates:
+  - new-post
+upload_dir: uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_output_directory: ".vuepress/dist"
+  install_dependencies_command: yarn add
+  preview_docker_image: forestryio/node:12
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: yarn build docs

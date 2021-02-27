@@ -1,0 +1,49 @@
+---
+label: New Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+  description: Это заголовок поста в поисковике. Чтобы он же стал заголовком поста
+    в контентной зоне дублируем <br>{{$ frontmatter.title}} &lt;Badge text = "?" type
+    = "warning" /&gt;, если нам нужны другие цвета меток можно использовать вместо
+    <strong>warning</strong> — <strong>error</strong> — для малинового и tip для голубого
+    лейбла. <strong><em>Знак вопроса тоже можно менять на любой другой текст. См как
+    пример уже готовые посты</em></strong>
+  config:
+    max: 55
+    required: true
+    min: 5
+- type: text
+  name: lang
+  label: lang
+  description: менять только в случае контента на других языках
+  default: ru-RU
+- type: field_group_list
+  name: meta
+  label: meta
+  fields:
+  - type: text
+    name: name
+    label: name
+    description: description
+    default: description
+    config:
+      required: true
+  - type: text
+    name: content
+    label: content
+    description: это сео описание поста, которое отразится в поисковиках
+  config:
+    labelField: name
+- type: text
+  name: category
+  label: category
+  description: это котегория в которой будет размещен пост
+- type: list
+  name: tags
+  label: tags
+  description: 'это теги, которые облегчат поиск '
+  config:
+    use_select: false
