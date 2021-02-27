@@ -10,6 +10,7 @@ fields:
   name: lang
   label: lang
   description: менять только в случае контента на других языках
+  default: ru-RU
 - type: field_group_list
   name: meta
   label: meta
