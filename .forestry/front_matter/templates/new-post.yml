@@ -35,6 +35,8 @@ fields:
     name: content
     label: content
     description: это сео описание поста, которое отразится в поисковиках
+  config:
+    labelField: name
 - type: text
   name: category
   label: category
