@@ -2,12 +2,13 @@ backend:
   name: git-gateway
   repo: daria-ts/empaer-docs-vuepress
   branch: master
-media_folder: 'public/images/uploads'
-public_folder: 'dist/'
+  publish_mode: editorial_workflow
+media_folder: 'src/.vuepress/public/images'
+public_folder: 'src/.vuepress/dist'
 site_url: https://empaer-docs.netlify.com
 display_url: https://empaer-docs.netlify.com
 logo_url: https://empaer-docs.netlify.app/logo.png
-publish_mode: editorial_workflow
+
 collections:
   - name: 'doc' # Used in routes, e.g., /admin/collections/blog
     label: 'Doc' # Used in the UI
