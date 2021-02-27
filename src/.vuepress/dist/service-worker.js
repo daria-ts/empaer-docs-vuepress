@@ -27,11 +27,15 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "465df359b5d2d3539aed145ecb06ce47"
+    "revision": "6d582f34a0e08453c1d213c7f7024902"
   },
   {
-    "url": "assets/css/0.styles.765c2914.css",
-    "revision": "4d75b26b8af5521d2402310859b18ccf"
+    "url": "admin/index.html",
+    "revision": "790d4a084438b6422c5756d20b35ab03"
+  },
+  {
+    "url": "assets/css/0.styles.a18a57b8.css",
+    "revision": "ee4a4ba18027641f8286b5c3167d7945"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -42,36 +46,36 @@ self.__precacheManifest = [
     "revision": "4cc3906bfb4930d52c068652ee14a802"
   },
   {
-    "url": "assets/js/11.e90a5f48.js",
-    "revision": "483c78c6490e8a542b1875fcc5d5bfa3"
+    "url": "assets/js/11.974e74f8.js",
+    "revision": "53d22ba881f05599ffd0896c4ceaa901"
   },
   {
-    "url": "assets/js/12.976a6881.js",
-    "revision": "b724ca5b29de58aab61205d9d795cbff"
+    "url": "assets/js/12.834e75e1.js",
+    "revision": "27a4f42fad121ec6a54223fb926ac888"
   },
   {
-    "url": "assets/js/13.9a56f6f7.js",
-    "revision": "f64df7348e9671e1f8fb5934e7575700"
+    "url": "assets/js/13.04514e48.js",
+    "revision": "b84ddd1e84a4cbfb86a4e9580d694913"
   },
   {
-    "url": "assets/js/14.38d49c44.js",
-    "revision": "f1de24896b744647953038a21a7eadc6"
+    "url": "assets/js/14.6df659cf.js",
+    "revision": "174c1861a551c69bf162af2f927c2cf4"
   },
   {
-    "url": "assets/js/15.7489aea2.js",
-    "revision": "6f4da19bcadc2ff1a170fea8420fe574"
+    "url": "assets/js/15.19d758dd.js",
+    "revision": "0fc54255d72ae9e0571260a7b0db4ab8"
   },
   {
-    "url": "assets/js/16.9ead4879.js",
-    "revision": "0ce708bfbb72b5897d5cd09919d33016"
+    "url": "assets/js/16.94fa6e16.js",
+    "revision": "4faa75874e8e6f61e2bbad3222d79c11"
   },
   {
-    "url": "assets/js/17.75efa5c8.js",
-    "revision": "d8f40599c57489c07b260e9361c3fba9"
+    "url": "assets/js/17.516dd85e.js",
+    "revision": "fb1435b0d486aef1ef9631509c5ce230"
   },
   {
-    "url": "assets/js/18.76ebbe97.js",
-    "revision": "f4300e2f0646c5bd40f788730d40e5a9"
+    "url": "assets/js/18.808f8e77.js",
+    "revision": "27da3d630cfd7e83ea1784a9c6f8d8c8"
   },
   {
     "url": "assets/js/19.2a04f052.js",
@@ -86,36 +90,36 @@ self.__precacheManifest = [
     "revision": "3c9fe5f62eca62524f3850988fb611f0"
   },
   {
-    "url": "assets/js/21.f1d34985.js",
-    "revision": "b97c1eb279428e039e2e81dcc175703b"
+    "url": "assets/js/21.356e4281.js",
+    "revision": "94d9a2282e376ea24207e515cdd9326a"
   },
   {
-    "url": "assets/js/22.ae105341.js",
-    "revision": "0fe07dfaf85ed8d69b81c94bf83daca0"
+    "url": "assets/js/22.b61818b1.js",
+    "revision": "abd5e063bf0b786f067df60901ad8aa0"
   },
   {
-    "url": "assets/js/23.99c7703a.js",
-    "revision": "90a547799b02874094d4fe98bade5910"
+    "url": "assets/js/23.606d7fe8.js",
+    "revision": "58a37ed0c3ee3915d6cc2f0c939d1426"
   },
   {
-    "url": "assets/js/24.f0e59334.js",
-    "revision": "10be26e24afd49513937071e75e30727"
+    "url": "assets/js/24.4134210b.js",
+    "revision": "34827f70ca8f138f387c2ad7bac6584d"
   },
   {
-    "url": "assets/js/25.4467f700.js",
-    "revision": "541ac8ac04a7e1b7722b72cc248fc9f7"
+    "url": "assets/js/25.e6661f2d.js",
+    "revision": "ab97edc44f8fae1fa2c3a70a9c5facc4"
   },
   {
-    "url": "assets/js/26.6e3597ab.js",
-    "revision": "c71f909ee23a694f4ea457d87e7988ad"
+    "url": "assets/js/26.608b4365.js",
+    "revision": "2a04d4b8265d84735f8dd6cfd7fe364c"
   },
   {
-    "url": "assets/js/27.65a2979f.js",
-    "revision": "89d2533d63f4205d19d21fb894fa37f3"
+    "url": "assets/js/27.fdd09f5d.js",
+    "revision": "a27498d51667aae893bd3f899bd28d46"
   },
   {
-    "url": "assets/js/28.c322b494.js",
-    "revision": "011732934cde1841f442a6057c95d20a"
+    "url": "assets/js/28.8d74c510.js",
+    "revision": "738881e237907c35ef26a6e85eee7a2b"
   },
   {
     "url": "assets/js/29.2bded75b.js",
@@ -126,8 +130,8 @@ self.__precacheManifest = [
     "revision": "90b87222d01f715310b81642096a8d0d"
   },
   {
-    "url": "assets/js/30.45fb43ae.js",
-    "revision": "21ec0eb82405c3241c5ff227d64bb3c5"
+    "url": "assets/js/30.6089ff9c.js",
+    "revision": "95b45568ece570afe237b51bea0f1041"
   },
   {
     "url": "assets/js/31.9c7eed23.js",
@@ -138,12 +142,12 @@ self.__precacheManifest = [
     "revision": "da79a9d634797f1dd35cd1670a18b793"
   },
   {
-    "url": "assets/js/5.48227fae.js",
-    "revision": "4e63f6d4c035017969112af52ce22ca8"
+    "url": "assets/js/5.2738a2d0.js",
+    "revision": "7f295d50c135ace549f4f2b90a6f3719"
   },
   {
-    "url": "assets/js/6.c09c7787.js",
-    "revision": "251f60bcb74247d06430d416f59ebf83"
+    "url": "assets/js/6.bebf70db.js",
+    "revision": "8aa3e077391d34acf403c6e50f388eef"
   },
   {
     "url": "assets/js/7.01d0381f.js",
@@ -158,76 +162,76 @@ self.__precacheManifest = [
     "revision": "40449c969a0eefc2618219f0a88b5534"
   },
   {
-    "url": "assets/js/app.b6e0c019.js",
-    "revision": "14ff7c18512e48b69bc1d34bf49658f2"
+    "url": "assets/js/app.27f153b6.js",
+    "revision": "009b618abb0ced9a7511dab947c93635"
   },
   {
     "url": "config/index.html",
-    "revision": "0772bdfae608601186bbaedacb2a6de1"
+    "revision": "b65a72a6865bfdb66fc2e82ff2517be0"
   },
   {
     "url": "en/faq/index.html",
-    "revision": "65f3aaf3586b909b52b5625163d7177e"
+    "revision": "34624ba99504bee35cb7c04a47b59255"
   },
   {
     "url": "en/faq/using-vue.html",
-    "revision": "4aecdcb5548e3a21d0c0d6beed548aeb"
+    "revision": "cddf6214a47cb534c5067dabcb20cce6"
   },
   {
     "url": "en/index.html",
-    "revision": "babb6d6cbe09001b7c4eb2b6ba79aafd"
+    "revision": "3461f7e1d19c95aca98120b53ad6ee67"
   },
   {
     "url": "faq/akcii-vs-bankovsky-deposit.html",
-    "revision": "ff0fa443d8cfd652f2a434f9261d0fad"
+    "revision": "10ce23baa64c2f2df5b9bfb91eee86ff"
   },
   {
     "url": "faq/hranenie-i-vyvod-akcii.html",
-    "revision": "754ac4e2cf18427a1c6c3524933526f5"
+    "revision": "7b8a3baedf81ea4c2d59bdd327a8646a"
   },
   {
     "url": "faq/index.html",
-    "revision": "2769076abdedece58de9c6fedd0747dd"
+    "revision": "384607d96fcbd4eab029489950136c26"
   },
   {
     "url": "faq/kak-investirovat-nalichnye-v-kryptu.html",
-    "revision": "1b478cd0ee8bdc5e1d536eb134b0d9bd"
+    "revision": "0a08ad4a72f3975b671c0b90a21bfd98"
   },
   {
     "url": "faq/kak-poluchit-investicii.html",
-    "revision": "2fe427439189601da1a1f3aeb1af4e03"
+    "revision": "48b04cce85b2167937bd4556df673bdb"
   },
   {
     "url": "faq/luchshee-vremya-dlya-investicii.html",
-    "revision": "b81445a91f09d6af206bdb6a208ce861"
+    "revision": "065399c2e5c61a57472740d355db3c47"
   },
   {
     "url": "faq/mejdunarodnye-investicii.html",
-    "revision": "f231e9a8098e6b3ad96dab046e86f254"
+    "revision": "48402fbb0edf3bb27b8d8bf8cc52968d"
   },
   {
     "url": "faq/perspectivy.html",
-    "revision": "cb4985f1ef287717a37f676a6b92a17c"
+    "revision": "5959a64971ee886ec4dfa3a8cac30f60"
   },
   {
     "url": "faq/pochemu-vygodno-investirovat-v-empaer.html",
-    "revision": "ab761f5d4e7364b33cbe696beba70176"
+    "revision": "9f1d71f5526ea1adaada9684269bc4a5"
   },
   {
     "url": "faq/vip-investicii.html",
-    "revision": "7b8ac077c8d63bbc940b8e8c4baa9554"
+    "revision": "9bb16a4eb71013a46c751c3f99324a03"
   },
   {
     "url": "faq/zachita-investicii.html",
-    "revision": "690f139958d7d7a6898869999b73e026"
+    "revision": "b8be885c5ee16e9c3c3955efa7469406"
   },
   {
     "url": "guide/index.html",
-    "revision": "03fd4e3fafc6d4f83d8b4704fbbddc8f"
+    "revision": "8c9b248cf88714d0daf81b94257057ff"
   },
   {
     "url": "guide/using-vue.html",
-    "revision": "75e8dc80cefd2e101d78c0172994b7bb"
+    "revision": "32e2da0cf358aa7adf46b080b929271b"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -263,7 +267,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "48f7a45e14369ab948491c11f0228dda"
+    "revision": "2b25e031fae799f09dfbc9c830e0d204"
   },
   {
     "url": "logo.png",
@@ -271,11 +275,11 @@ self.__precacheManifest = [
   },
   {
     "url": "roadmap/index.html",
-    "revision": "309df5f4d691cecd3d348f80370f736d"
+    "revision": "0f5c08e48fc88953661eefa7a83bd711"
   },
   {
     "url": "roadmap/using-vue.html",
-    "revision": "4ea4d537982ba295cfd9a93c26311312"
+    "revision": "724780b82d9a698733c0c15a2116e45d"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
