@@ -5,7 +5,11 @@ fields:
 - type: text
   name: title
   label: title
-  description: Этот заголовок автоматически будет заголовком поста
+  description: Это заголовок поста в поисковике. Чтобы он же стал заголовком поста
+    в контентной зоне дублируем <br>{{$ frontmatter.title}} &lt;Badge text = "?" type
+    = "warning" /&gt; если нам нужны другие цвета меток можно использовать вместо
+    warning — error — для малинового и tip для голубого лейбла. Знак вопроса тоже
+    можно менять на любой другой текст
 - type: text
   name: lang
   label: lang
