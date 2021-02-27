@@ -27,7 +27,7 @@ fields:
   - type: text
     name: name
     label: name
-    description: это сео заголовок поста
+    description: description
     default: description
     config:
       required: true
