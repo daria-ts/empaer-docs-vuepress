@@ -2,7 +2,7 @@
 title: Почему выгодно инвестировать в акции EMPAER 
 lang: ru-RU
 meta:
-  - name: Почему выгодно инвестировать в акции EMPAER 
+  - name: description
     content: о достоинствах и недостатках криптовалют
 
 category: faq
