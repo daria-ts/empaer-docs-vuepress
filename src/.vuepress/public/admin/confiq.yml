@@ -3,7 +3,7 @@ backend:
   repo: daria-ts/empaer-docs-vuepress
   branch: master
 media_folder: '.vuepress/public/images/uploads'
-public_folder: '../../'
+public_folder: '.vuepress/public/'
 site_url: https://empaer-docs.netlify.com
 display_url: https://empaer-docs.netlify.com
 logo_url: https://empaer-docs.netlify.app/logo.png
