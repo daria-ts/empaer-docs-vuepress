@@ -28,6 +28,9 @@ fields:
     name: name
     label: name
     description: это сео заголовок поста
+    default: description
+    config:
+      required: true
   - type: text
     name: content
     label: content
