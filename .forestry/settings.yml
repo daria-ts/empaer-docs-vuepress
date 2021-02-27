@@ -14,6 +14,8 @@ sections:
   label: menu
   create: documents
   match: "**/*"
+  templates:
+  - new-post
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
