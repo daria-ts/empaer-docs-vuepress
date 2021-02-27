@@ -2,7 +2,7 @@
 title: Покупка, хранение, вывод средств
 lang: ru-RU
 meta:
-  - name: Все о покупке, хранении и выводе инвестиций 
+  - name: description 
     content: о достоинствах и недостатках криптовалют
 category: faq
 tags: 
